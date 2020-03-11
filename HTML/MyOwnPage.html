@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -42,6 +44,70 @@
           being happy, ever.
         </p>
       </article>
+    </section>
+
+    <br />
+    <br />
+
+    <section id = "number1">
+      <h3> Here is a form </h3>
+      <div>
+        Using 'POST' will do the parameters behind the scenes, GET will change up your url to include values. Action is
+        where it will submit to, or the script that runs (e.g php script).
+      </div> <br />
+      <form method ="GET" action = "">
+        <h4>Personal Details</h4>
+        <input name = "firstname" placeholder = "Enter name here"/>
+        <input name = "lastname" placeholder = "Enter last name here"/> <br />
+        <input name = "city" placeholder = "Enter city here"/> <br />
+
+        <h4>Race</h4>
+        <input name ="Race" value="Race1" type = "checkbox" /> Race1
+        <input name ="Race" value="Race2" type = "checkbox" /> Race2 <br />
+        <input name ="Race" value="Race3" type = "checkbox" /> Race3
+        <input name ="Race" value="Race4" type = "checkbox" /> Race4 <br />
+
+        <h4>Gender</h4>
+        <!-- Give them the same name so only one can be picked -->
+
+        <input name="gender" type = "radio" value="gender1"/> Gender1
+        <input name="gender" type = "radio" value="gender2"/> Gender2 <br />
+        <input name="gender" type = "radio" value="gender3"/> Gender3 <br />
+
+        <h4>Height</h4>
+
+        <select name="Height">
+          <option value ="height1"> height1 - short </option>
+          <option value ="height2"> height2 - average </option>
+          <option value ="height3"> height3 - tall </option>
+
+        </select>
+        <br /> <br />
+        <button type="submit">Submit form</button>
+
+
+
+      </form>
+
+    </section>
+
+    <br />
+
+    <section>
+      <h3> My Video</h3>
+      <br />
+      <video width="540" height="320" controls>
+        <source src="Windwall bug.mp4" type="video/mp4" />
+        <!-- The browser would try to do this next -> source src="Windwall bug.mp4" type="video/mp4" /-->
+
+        Your browser doesn't support HTML5
+
+      </video> <br />
+      <h3>My audio</h3>
+      <audio id="thisAudio" width="600" controls autoplay loop>
+        <source src="Kupla X j'san - Memories Fade (Nymano Remix).mp3" type="audio/mp3" />
+
+      </audio>
     </section>
   </main>
 
